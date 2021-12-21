@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meltano-explore"
+version = "0.1.0"
+description = ""
+authors = ["Robert Engler <rengler@noodle.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.10"
+meltano = "^1.90.1"
+meltano-sdk = "^0.0.1-alpha.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
